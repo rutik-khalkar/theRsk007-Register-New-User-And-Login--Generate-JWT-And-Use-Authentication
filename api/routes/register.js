@@ -40,7 +40,7 @@ router.post('/', async (req, res, next) => {
                 last_name,
                 email : email.toLowerCase(), // convert email into lowercase
                 password : encryptedPassword,
-                confirmpassword : encryptedPassword
+                // confirmpassword : encryptedPassword
             })
 
             // create jwt token
